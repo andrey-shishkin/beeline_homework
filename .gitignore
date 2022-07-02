@@ -1,2 +1,11 @@
+target/
+.idea/
+.bsp/
+logs/
+bin/
+
+.idea
+*.iml
 *.class
-*.log
+*.project
+*.classpath
