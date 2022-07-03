@@ -8,7 +8,7 @@ package object domain {
 
   case class Product(id: Int, name: String, price: Double, numberOfProducts: Int)
 
-  case class Order(customerId: Int, orderId: Int, productID: Int, numberOfProduct: Int, orderDate: Date, status: String)
+  case class Order(customerId: Int, orderId: Int, productId: Int, numberOfProduct: Int, orderDate: Date, status: String)
 
   case class MostPopularProduct(customerId: Int, productId: Int, totalProductAmount: Long)
 
