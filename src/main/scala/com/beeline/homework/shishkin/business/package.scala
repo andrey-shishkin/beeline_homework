@@ -4,7 +4,6 @@ import com.beeline.homework.shishkin.domain._
 import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.functions.{col, row_number, sum}
 import org.apache.spark.sql.{Dataset, SparkSession}
-import org.codehaus.jackson.map.JsonMappingException
 
 package object business {
 

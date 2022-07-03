@@ -24,6 +24,8 @@ object SparkApplication extends App with SparkSessionWrapper {
 
   val result = joinOrdersToCustomersAndProducts(mostPopularDS, customerDS, productDS, OnlyActiveCustomers)
 
+  result.show
+
   saveToFile(result, Path, "result")
 
 }

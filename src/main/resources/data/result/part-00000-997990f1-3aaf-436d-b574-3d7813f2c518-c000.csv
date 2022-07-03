@@ -1,0 +1,5 @@
+customerId,customerName,productId,productName,totalProductAmount,customerStatus
+1,John,1,Apple iPhone 7,1200,active
+2,Philip,1,Apple iPhone 7,300,active
+4,Anastasia,1,Apple iPhone 7,500,active
+6,Sara,1,Apple iPhone 7,200,active
